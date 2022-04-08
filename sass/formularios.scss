@@ -1,0 +1,108 @@
+.formulario {
+    background-image: url(../imagenes/c3-10.jpg);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    .formul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    
+        .form-principal {
+            background-size: cover;
+            display: flex;
+            width: 100%;
+            flex-flow: column nowrap;
+            margin-top: 10px;
+    
+            .input {
+                width: 50%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            button {
+                margin-top: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: auto;
+                width: 70px;
+                text-align: center;
+                justify-content: center;
+                background-color: orangered;
+                align-items: center;
+            }
+        }
+    }
+
+}
+
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+
+/*Formulario Final*/
+
+
+.form--final {
+    background-image: url(../imagenes/banner_formulario.jpg);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    p {
+        strong {
+            color: white;
+        }
+    }
+
+    .input {
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .formul-final {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+
+
+        button {
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: auto;
+            width: 70px;
+            text-align: center;
+            justify-content: center;
+            background-color: orangered;
+            align-items: center;
+        }
+
+    }
+
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .formulario {
+        .formul {
+            justify-content: flex-end;
+            .form-principal {
+                width: 60%;
+            }
+        }
+    }
+}

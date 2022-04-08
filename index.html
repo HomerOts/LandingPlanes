@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./imagenes/citroen_logo_icon_145834.png" type="./imagenes">
+    <title>Planes Citroên</title>
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="header-brand">
+            <a href="index.html">
+                <img class="logo" src="./imagenes/LOGOO.png" alt="logo"></a>
+            <h2>Automobiles Lyon</h2>
+        </div>
+        <div class="header-bts">
+            <a id="leadBt" class="bt" href="#form-plan">Consultanos</a>
+        </div>
+
+
+    </header>
+
+    <section class="contenido">
+
+        <div class="banner">
+            <article class="formulario">
+                <form action="enviar.php" method="post">
+                <div class="formul">
+                    <div class="form-principal">
+                        <p><strong> Adquirí tu nuevo Citroën!</strong></p>
+                        <div>
+                            <input type="name" class="input" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div>
+                            <input type="surname" class="input" id="apellido" placeholder="Apellido">
+                        </div>
+                        <div>
+                            <input type="celphone" class="input" id="celular" placeholder="Celular">
+                        </div>
+                        <div>
+                            <input type="email" class="input" id="mail" placeholder="Email">
+                        </div>
+                        <div>
+                            <select class="input" id="modelo" aria-label="Default select example">
+                                <option selected>Seleccioná tu modelo</option>
+                                <option value="1">C3</option>
+                                <option value="2">C4 Cactus</option>
+                                <option value="3">Berlingo</option>
+
+                            </select>
+                        </div>
+                        <div class="btn">
+                            <button type="submit" class="btn btn-secondary btn-sm">Enviar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            </article>
+        </div>
+
+        <article class="texto">
+            <h2>¿Estás listo para conocer tu próximo Citroën?</h2>
+            <p>El Nuevo Citroën C3 invita a que te dejes llevar por su originalidad y descubrir también la tuya
+                gracias a su singular diseño. Único por donde lo mires. Su carrocería bitono, su actitud SUV y cada
+                uno de sus detalles lo hacen atractivo e irresistible.</p>
+        </article>
+        <div class="recuadros">
+            <div class="c3" id="c3">
+                <h3>Nuevo Citroen C3</h3>
+                <p>Estilo - Personalidad</p>
+                <a href="#form-plan">
+                    <img class="img--c3" src="./imagenes/nuevo-c3.png" alt="nuevoc3"></a>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form-plan">CONSULTAR</a>
+                </button>
+            </div>
+            <div class="c3" id="c4">
+                <h3>Citroen C4</h3>
+                <p>Veloz - Creativo</p>
+                <a href="#form-plan">
+                    <img class="img--c3" src="./imagenes/C4-Cactus-1.png" alt="c4cactus"></a>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form-plan">CONSULTAR</a>
+                </button>
+            </div>
+
+            <div class="c3" id="berlingo">
+                <h3>Citroen Berlingo</h3>
+                <p>Amplio - Utilitario</p>
+                <a href="#form-plan">
+                    <img class="img--c3" src="./imagenes/berlingo.png" alt="berlingo"></a>
+                <button type="submit" class="btn btn-secondary btn-sm"><a href="#form-plan">CONSULTAR</a>
+                </button>
+            </div>
+
+        </div>
+
+        <article class="texto">
+            <h2>El Nuevo C3 es la tradición del diseño sobre ruedas</h2>
+            <p>André Citroën materializó en formas, líneas y contornos quizás los vehículos más deseados de la
+                industria. Presentado en septiembre y con la vista puesta en las necesidades de los consumidores, el
+                Nuevo C3 se diseñó teniendo en cuenta las condiciones de conducción de los países sudamericanos.</p>
+        </article>
+
+        <article class="form--final" id="form-plan">
+            <form action="enviar.php" method="post">
+            <div class="formul-final">
+                <div class="form--final">
+                    <p><strong> Adquirí tu nuevo Citroën!</strong></p>
+                    <form action="">
+                        <div>
+                            <input type="name" class="input" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div>
+                            <input type="surname" class="input" id="apellido" placeholder="Apellido">
+                        </div>
+                        <div>
+                            <input type="celphone" class="input" id="celular" placeholder="Celular">
+                        </div>
+                        <div>
+                            <input type="email" class="input" id="mail" placeholder="Email">
+                        </div>
+                        <div>
+                            <select class="input" id="mdoelo" aria-label="Default select example">
+                                <option selected>Seleccioná tu modelo</option>
+                                <option value="1">C3</option>
+                                <option value="2">C4 Cactus</option>
+                                <option value="3">Berlingo</option>
+
+                            </select>
+                        </div>
+                        <div class="btn">
+                            <button type="submit" class="btn btn-secondary btn-sm">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </form>
+        </article>
+
+
+
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="redes">
+            <div class="icons">
+                <p> Seguinos en nuestras redes</p>
+                <div class="icon--list">
+                    <ul class="icon--list">
+                        <li> <a href="https://www.facebook.com/LyonCitroen/">
+                                <i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li> <a href="https://www.youtube.com/channel/UC49DEP3Ms9dWXGoIfiGsxyw/featured">
+                                <i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li> <a href="https://www.instagram.com/lyoncitroen/">
+                                <i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li> <a href="https://api.whatsapp.com/send/?phone=%2B5491139254488&text&app_absent=0">
+                                <i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="icons">
+                <p> TELEFONO 4653-0844</p>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+            </div>
+        </div>
+        <article class="sucursales">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5753529016283!2d-58.555080785051025!3d-34.64016996693405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc809bf9e0613%3A0x96e13731abe7e2b0!2sCitro%C3%ABn%20Concesionario%20Oficial%20Automobiles%20Lyon%20S.A.!5e0!3m2!1ses-419!2sar!4v1649357437351!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a
+                    href="https://www.google.es/maps/place/Citro%C3%ABn+Concesionario+Oficial+Automobiles+Lyon+S.A./@-34.64017,-58.5550808,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc809bf9e0613:0x96e13731abe7e2b0!8m2!3d-34.6401137!4d-58.5529306">
+                    Av. Rivadavia 13.202 - Ramos Mejía</a>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.574197099705!2d-58.53629538505113!3d-34.64019916693571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc815195e851d%3A0x4ebad07c729ac290!2sAutomobiles%20Lyon%20SA!5e0!3m2!1ses-419!2sar!4v1649356775371!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <a
+                    href="https://www.google.es/maps/place/Automobiles+Lyon+SA/@-34.6401992,-58.5362954,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc815195e851d:0x4ebad07c729ac290!8m2!3d-34.6401282!4d-58.5340263">
+                    Av. Rivadavia 12.048 - Ciudadela</a>
+
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8339407145018!2d-58.638136285050486!3d-34.65889646792618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc75041bbc805%3A0x40d4682ae74c3fe7!2sCitro%C3%ABn%20Concesionario%20Oficial%20Automobiles%20Lyon%20S.A.!5e0!3m2!1ses-419!2sar!4v1649357526249!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a
+                    href="https://www.google.es/maps/place/Citro%C3%ABn+Concesionario+Oficial+Automobiles+Lyon+S.A./@-34.6588965,-58.6381363,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc75041bbc805:0x40d4682ae74c3fe7!8m2!3d-34.6589009!4d-58.6359476">
+                    Av. Estanislao Zeballos 2.105 - Castelar</a>
+            </div>
+
+
+        </article>
+
+        <div class="pie">
+            <strong> Una creación de Automobiles Lyon™</strong>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+
+
+/*footer*/
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    bottom: 0;
+    margin-top: auto;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: orangered;
+
+
+
+    .pie {
+        bottom: 0;
+        margin-bottom: 5px;
+        margin-top: auto;
+        padding-top: 25vh;
+        text-align: center;
+        strong{
+            color: rgb(167, 167, 167);
+        }
+    }
+    
+    
+    .sucursales {
+        display: flex;
+        flex-flow: column nowrap;
+        a{
+            color: orangered;
+            text-decoration: none;
+        }
+        .mapa{
+            margin-top: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+        }
+        iframe{
+            height: 200px;
+            width: 250px;
+        }
+    }
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .icons {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+
+            .phone{
+                display: flex;
+                flex-direction: column;
+                margin-left: 25px;
+            }
+
+            .icon--list {
+                flex-direction: row;
+                    ul {
+                        flex-direction: row;
+                        li {
+                            list-style: none;
+                            display:flex;
+                            flex-direction: row;
+        
+                            a i {
+                                color: orangered;
+                        
+                        }
+
+
+                }
+
+            }
+        }
+
+    }
+}
+
+
+}
+
+@media screen and (min-width: 900px) {
+    footer{
+    .pie{
+        padding-top: 20vh;
+    }
+    .redes {
+        flex-direction: row;
+        justify-content: space-evenly;
+        .icons{
+            .phone{
+                text-align: center;
+            }
+           .icon--list{
+               display: flex;
+               flex-direction: row;
+               li{
+                padding-right: 10px;
+               }
+                        }
+                    }
+                }
+                .sucursales {
+                    flex-flow: row nowrap;
+                    padding-top: 10vh;
+                    justify-content: space-evenly;
+                }
+            }
+    
+
+}
+    
