@@ -1,5 +1,5 @@
 .formulario {
-    background-image: url(../imagenes/c3-10.jpg);
+    background-image: url(../imagenes/banner_mobile.jpg);
     background-size: cover;
     display: flex;
     width: 100%;
@@ -51,7 +51,7 @@
 
 
 .form--final {
-    background-image: url(../imagenes/banner_formulario.jpg);
+    background-image: url(../imagenes/BANNER_formulario.jpg);
     background-size: cover;
     display: flex;
     width: 100%;
@@ -94,6 +94,14 @@
 
 
 }
+
+
+@media screen and (min-width: 480px) {
+    .formulario {
+    background-image: url(../imagenes/c3-10.jpg);
+    }
+}
+
 
 @media screen and (min-width: 900px) {
 

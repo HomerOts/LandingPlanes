@@ -29,7 +29,14 @@ body {
         margin-right: auto;
     }
 }
-
+/*Img principal*/
+.banner{
+    .img-baner{
+    width: 320px;
+    height: 400px;
+}
+}
+/*recuadros*/
 .recuadros {
     display: flex;
     flex-flow: column nowrap;
@@ -76,6 +83,11 @@ body {
     width: 200px;
 }
 
+@media screen and (min-width: 480px) {
+.img-baner{
+    display: none;
+}
+}
 
 @media screen and (min-width: 900px) {
     .texto {
