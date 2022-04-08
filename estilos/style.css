@@ -108,9 +108,9 @@ footer {
       margin-top: 20px;
       display: flex;
       flex-flow: column nowrap; }
-    footer .sucursales i {
-      height: 250px;
-      width: 300px; }
+    footer .sucursales iframe {
+      width: 250px;
+      height: 200px; }
   footer .redes {
     display: flex;
     flex-direction: column;
@@ -131,8 +131,14 @@ footer {
             list-style: none;
             display: flex;
             flex-direction: row; }
-            footer .redes .icons .icon--list ul li a i {
+            footer .redes .icons .icon--list ul li a {
               color: orangered; }
+              footer .redes .icons .icon--list ul li a i {
+                height: 15px; }
+
+.icon--list li a:hover {
+  transform: scale(1.3);
+  transition: 1s; }
 
 @media screen and (min-width: 900px) {
   footer .pie {
@@ -146,7 +152,7 @@ footer {
       display: flex;
       flex-direction: row; }
       footer .redes .icons .icon--list li {
-        padding-right: 10px; }
+        padding-right: 20px; }
   footer .sucursales {
     flex-flow: row nowrap;
     padding-top: 10vh;
