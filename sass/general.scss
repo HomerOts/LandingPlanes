@@ -54,6 +54,7 @@ body {
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+        height: 300px;
         width: 300px;
         text-align: center;
         padding-top: 20px;
@@ -89,11 +90,17 @@ body {
 }
 }
 
-@media screen and (min-width: 900px) {
-    .texto {
-        height: 500px;
-    }
+@media screen and (min-width: 700px) {
+
     .c3 {
-    margin-right: 50px;
+        justify-content: space-around;
+        height: 350px;
+        width: 350px;
+    }
+    .recuadros {
+
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        height: 600px;
     }
 }

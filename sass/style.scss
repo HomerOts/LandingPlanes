@@ -10,6 +10,7 @@ section div {
     padding-top: 25px;
     padding-bottom: 15px;
 }
+
 section {
     background-color: white;
     min-height: 100vh;
@@ -20,41 +21,36 @@ strong {
     color: black;
 }
 
-
-
-@media screen and (min-width: 900px) {
-
-    .c3 {
-        justify-content: space-around;
-        height: 420px;
-        width: 350px;
-    }
-
-
-    .recuadros {
-        
-        flex-flow: row nowrap;
-        justify-content: center;
-        height: 600px;
-    }
-
-
-/*Formulario */
-
-.formul button {
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: auto;
-    width: 70px;
+.imagen-central {
     text-align: center;
-    justify-content: center;
-    background-color: orangered;
-    align-items: center;
 }
-.banner{
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
+
+@media screen and (min-width: 480px) {
+    .imagen-central {
+        display: none;
+    }
 }
-}
+   
+
+
+    @media screen and (min-width: 700px) {
+        /*Formulario */
+
+        .formul button {
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: auto;
+            width: 70px;
+            text-align: center;
+            justify-content: center;
+            background-color: orangered;
+            align-items: center;
+        }
+
+        .banner {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+        }
+    }

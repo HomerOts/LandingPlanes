@@ -3,6 +3,9 @@
 /*footer*/
 
 footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
     padding: 1em;
     bottom: 0;
@@ -29,18 +32,30 @@ footer {
     .sucursales {
         display: flex;
         flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
         a{
             color: orangered;
             text-decoration: none;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
         }
         .mapa{
             margin-top: 20px;
             display: flex;
             flex-flow: column nowrap;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
         }
         iframe{
             width: 250px;
             height: 200px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
         }
     }
     .redes {
@@ -60,11 +75,16 @@ footer {
             }
 
             .icon--list {
+                display: flex;
                 flex-direction: row;
+                text-align: center;
+                justify-content: center ;
                     ul {
                         flex-direction: row;
+                        justify-content: center;
                         li {
                             list-style: none;
+                            padding-right: 20px;
                             display:flex;
                             flex-direction: row;
         
@@ -86,7 +106,7 @@ footer {
 }
 
 
-}
+
 
 
 
@@ -95,7 +115,7 @@ footer {
     transition: 1s;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
     footer{
     .pie{
         padding-top: 20vh;

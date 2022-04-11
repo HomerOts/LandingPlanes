@@ -296,5 +296,13 @@
     "yallist": "^4.0.0",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HomerOts/LandingPlanes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HomerOts/LandingPlanes/issues"
+  },
+  "homepage": "https://github.com/HomerOts/LandingPlanes#readme",
   "description": ""
 }
