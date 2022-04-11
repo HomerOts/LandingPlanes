@@ -71,6 +71,10 @@ body {
   height: 120px;
   width: 200px; }
 
+.img--c3:hover {
+  transform: scale(1.3);
+  transition: 1s; }
+
 @media screen and (min-width: 480px) {
   .img-baner {
     display: none; } }
@@ -105,7 +109,7 @@ footer {
     padding-top: 25vh;
     text-align: center; }
     footer .pie strong {
-      color: #a7a7a7; }
+      color: orangered; }
   footer .sucursales {
     display: flex;
     flex-flow: column nowrap;
@@ -291,15 +295,19 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     height: 80px;
-    align-items: center; }
+    align-items: center;
+    text-decoration: none; }
     .fixed-header .header-brand h2 {
       flex-flow: row wrap;
       visibility: hidden;
       margin-left: 15px;
       font-size: 16px; }
+      .fixed-header .header-brand h2 a {
+        text-decoration: none;
+        color: #000; }
     .fixed-header .header-brand .logo {
-      width: 60px;
-      height: 40px; }
+      width: 40px;
+      height: 45px; }
 
 .bt {
   padding: 0.5em 1.2em 0.5em 1.2em;
@@ -323,9 +331,6 @@ footer {
     height: 70px; }
     .fixed-header .header-brand {
       padding-left: 10px; }
-      .fixed-header .header-brand .logo {
-        width: 60px;
-        height: 40px; }
       .fixed-header .header-brand h2 {
         visibility: visible;
         font-size: 1.5em; }
@@ -346,6 +351,7 @@ strong {
   color: black; }
 
 .imagen-central {
+  margin-top: 40px;
   text-align: center; }
 
 @media screen and (min-width: 480px) {
