@@ -42,6 +42,9 @@ body {
   padding-bottom: 30px;
   width: 100%;
   height: 1300px; }
+  .recuadros h3 {
+    margin-top: 5px;
+    padding-top: 5px; }
   .recuadros .c3 {
     display: flex;
     flex-flow: column nowrap;
