@@ -31,20 +31,9 @@
         align-items: center;
         text-decoration: none;
 
-        h2 {
-            flex-flow: row wrap;
-            visibility: hidden;
-            margin-left: 15px;
-            font-size: 16px;
-            a{
-            text-decoration: none;
-            color: #000;
-        }
-        }
-
             .logo {
-                width: 40px;
-                height: 45px;
+                width: 150px;
+                height: 65px;
             }
     }
 }
@@ -78,10 +67,6 @@
 
         .header-brand {
             padding-left: 10px;
-            h2 {
-                visibility: visible;
-                font-size: 1.5em;
-            }
         }
     }
 

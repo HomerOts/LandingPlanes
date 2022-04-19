@@ -47,14 +47,14 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
-    height: 950px;
+    height: 1300px;
 
     .c3 {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        height: 400px;
         width: 300px;
         text-align: center;
         padding-top: 20px;
@@ -63,6 +63,7 @@ body {
         background-color: white;
         padding-bottom: 10px;
         border: solid 0.5px orangered;
+        border-radius: 2%;
         margin-top: 5px;
 
         button {
@@ -70,7 +71,7 @@ body {
             width: 150px;
             text-align: center;
             margin-bottom: 20px;
-            margin-top: 20px;
+            margin-top: 30px;
 
             a {
                 text-decoration: none;
@@ -80,12 +81,16 @@ body {
     }
 }
 .img--c3 {
-    height: 120px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
 }
 .img--c3:hover{
     transform: scale(1.3);
-    transition: 1s;
+    transition: 1.5s;
+}
+
+.c3 button:hover{
+    background-color: grey;
 }
 
 @media screen and (min-width: 480px) {
@@ -95,16 +100,36 @@ body {
 }
 
 @media screen and (min-width: 700px) {
-
-    .c3 {
-        justify-content: space-around;
-        height: 350px;
-        width: 350px;
-    }
+   
     .recuadros {
-
         flex-flow: row nowrap;
         justify-content: space-around;
-        height: 600px;
+        height: 500px;
+        width: 100%;
+        .c3 {
+            justify-content: space-around;
+            height: 400px;
+            width: 320px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
     }
+}
+
+@media screen and (min-width: 900px) {
+    .recuadros {
+        height: 600px;
+        .c3 {
+            height: 450px;
+        }
+    }
+
+    .img--c3 {
+        height: 250px;
+        width: 250px;
+    }
+
+
+
+
 }

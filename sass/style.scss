@@ -32,26 +32,3 @@ strong {
     }
 }
    
-
-
-    @media screen and (min-width: 700px) {
-        /*Formulario */
-
-        .formul button {
-            margin-top: 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-left: auto;
-            width: 70px;
-            text-align: center;
-            justify-content: center;
-            background-color: orangered;
-            align-items: center;
-        }
-
-        .banner {
-            display: flex;
-            flex-flow: row wrap;
-            width: 100%;
-        }
-    }

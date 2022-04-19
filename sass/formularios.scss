@@ -5,26 +5,29 @@
     width: 100%;
     flex-flow: column nowrap;
     justify-content: center;
+
     .formul {
         display: flex;
         justify-content: center;
         text-align: center;
         align-content: center;
         width: 100%;
-    
+
         .form-principal {
             background-size: cover;
             display: flex;
             width: 100%;
             flex-flow: column nowrap;
             margin-top: 10px;
-    
+
             .input {
                 width: 50%;
                 padding-top: 10px;
                 padding-bottom: 10px;
             }
+
             button {
+                color: white;
                 margin-top: 20px;
                 padding-top: 10px;
                 padding-bottom: 10px;
@@ -34,6 +37,9 @@
                 justify-content: center;
                 background-color: orangered;
                 align-items: center;
+            }
+            button:hover{
+                background-color: grey;
             }
         }
     }
@@ -95,11 +101,13 @@
 
 }
 
-
+.btn button:hover{
+    background-color: grey;
+}
 
 @media screen and (min-width: 700px) {
     .formulario {
-    background-image: url(../imagenes/c3-10.jpg);
+        background-image: url(../imagenes/BANNERSNUEVO-10.png);
     }
 }
 
@@ -109,8 +117,29 @@
     .formulario {
         .formul {
             justify-content: flex-end;
+            text-align: right;
+
             .form-principal {
-                width: 60%;
+                width: 800px;
+                padding-right: 100px;
+                justify-content: flex-end;
+                text-align: right;
+                .titulo-form {
+                    justify-content: flex-end;
+                    padding-right: 100px;
+                }
+
+                
+                .btn{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    text-align: center;
+                    margin-right: 63px;
+                }
+
             }
         }
     }
