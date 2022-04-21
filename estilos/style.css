@@ -204,6 +204,10 @@ footer {
       display: flex;
       flex-direction: column;
       margin-left: 25px; }
+      .redes .icons .phone a {
+        color: orangered; }
+        .redes .icons .phone a i {
+          height: 15px; }
     .redes .icons .icon--list {
       display: flex;
       flex-direction: row;
@@ -221,6 +225,10 @@ footer {
             color: orangered; }
             .redes .icons .icon--list ul li a i {
               height: 15px; }
+
+.phone a:hover {
+  transform: scale(1.3);
+  transition: 1s; }
 
 .icon--list li a:hover {
   transform: scale(1.3);
