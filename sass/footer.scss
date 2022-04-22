@@ -14,17 +14,18 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     color: orangered;
-
+    font-family: citroenReg;
+    font-size: 18px;
 
 
     .pie {
         bottom: 0;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         margin-top: auto;
         padding-top: 25vh;
-        text-align: center;
+        text-align: right;
         strong{
-            color: orangered;
+            color: rgb(201, 197, 197);
         }
     }
     
@@ -43,7 +44,7 @@ footer {
         }
         }
         .mapa{
-            margin-top: 20px;
+            margin-top: 40px;
             display: flex;
             flex-flow: column nowrap;
             text-align: center;
@@ -64,6 +65,7 @@ footer {
         justify-content: space-evenly;
 
         .icons {
+            margin-top: 20px;
             display: flex;
             flex-flow: column wrap;
             justify-content: center;
@@ -125,10 +127,10 @@ footer {
     transition: 1s;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 820px) {
     footer{
     .pie{
-        padding-top: 20vh;
+        padding-top: 30vh;
     }
     .redes {
         flex-direction: row;

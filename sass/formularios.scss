@@ -1,4 +1,5 @@
 .formulario {
+    font-family: citroenReg;
     background-image: url(../imagenes/BANNER_formulario.jpg);
     background-size: cover;
     display: flex;
@@ -57,6 +58,7 @@
 
 
 .form--final {
+    font-family: citroenReg;
     background-image: url(../imagenes/BANNER_formulario.jpg);
     background-size: cover;
     display: flex;
@@ -64,7 +66,6 @@
     flex-flow: column nowrap;
     justify-content: center;
     height: 600px;
-
 
    
 
@@ -115,6 +116,7 @@
     .formulario {
         background-image: url(../imagenes/BANNERSNUEVO-10.png);
     }
+
 }
 
 
@@ -158,5 +160,11 @@
 
             }
         }
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .form--final{
+        display: none;
     }
 }
