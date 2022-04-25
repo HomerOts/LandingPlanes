@@ -190,7 +190,7 @@ footer {
   padding-right: 20px;
   color: orangered;
   font-family: citroenReg;
-  font-size: 18px; }
+  font-size: 18 px; }
   footer .pie {
     bottom: 0;
     margin-bottom: 0px;
@@ -429,7 +429,8 @@ footer {
     padding-bottom: 5px;
     height: 80px;
     align-items: center;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: citroenReg; }
     .fixed-header .header-brand .logo {
       width: 150px;
       height: 65px; }
@@ -444,7 +445,8 @@ footer {
   font-size: 1.1em;
   border: 2px solid #000;
   border-radius: 50px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-family: citroenReg; }
 
 .bt:hover {
   color: white;
