@@ -370,7 +370,7 @@ footer {
 
 @media screen and (min-width: 900px) {
   .formul-final .form--final .titulo-form-final {
-    font-size: 26px; }
+    font-size: 23px; }
   .formulario .formul {
     justify-content: flex-end;
     text-align: right; }
@@ -381,9 +381,10 @@ footer {
       text-align: right; }
       .formulario .formul .form-principal .titulo-form {
         justify-content: flex-end;
-        padding-right: 50px;
         font-size: 26px;
+        padding-right: 50px;
         padding-left: 0px;
+        text-align: center;
         background-color: white; }
       .formulario .formul .form-principal .btn {
         display: flex;
