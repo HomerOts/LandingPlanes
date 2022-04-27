@@ -86,6 +86,7 @@ body {
     }
 }
 /*Img principal*/
+
 .banner{
     .img-baner{
     width: 320px;
@@ -187,9 +188,9 @@ body {
     
 .iconos {
     flex-flow: row nowrap;
-    height: 350px;
     justify-content: space-around;
     padding-top: 80px;
+    height: 350px;
 }
 
             .icon-img{
@@ -212,7 +213,6 @@ body {
     .texto{
         margin-bottom: 10px;
         padding-bottom:10px;
-        height: 1000px;
     }
 }
 
